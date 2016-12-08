@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>志玲说-预览</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "MicroSoft YaHei";
+            font-size: 14px;
+            color: #fff;
+            background-color: #fff;
+
+        }
+        .preview {
+            width: 306px;
+            height: 630px;
+            position: relative;
+            margin: auto;
+            background: url(images/iphone.png) no-repeat;
+        }
+        .preview .title{
+            position: absolute;
+            margin-top: 65px;
+            padding: 0px 50px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            width: 100%;
+            height: 20px;
+            font-size: 16px;
+            color: #fff;
+            line-height: 20px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+        .preview .content {
+            position: absolute;
+            height: 467px;
+            width: 100%;
+            margin-top: 96px;
+        }
+
+        .preview .content iframe{
+            width: 640px;
+            height: 1040px;
+            position: absolute;
+            left: 50%;
+            -webkit-transform: scale(0.4501) translateX(-50%);
+            -moz-transform: scale(0.4501) translateX(-50%);
+            -ms-transform: scale(0.4501) translateX(-50%);
+            transform: scale(0.4501) translateX(-50%);
+            -webkit-transform-origin: left top;
+            -moz-transform-origin: left top;
+            -ms-transform-origin: left top;
+            transform-origin: left top;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="preview">
+    <div class="title">志玲说</div>
+    <div class="content">
+        <iframe src="index.html" frameborder="0"></iframe>
+    </div>
+</div>
+</body>
+</html>
